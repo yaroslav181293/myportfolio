@@ -1,0 +1,22 @@
+@import "fonts";
+
+
+@import "variables";
+@import "mixins";
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+@import "header";
+@import "title";
+@import "button";
+@import "sidepanel";
+@import "menu";
