@@ -9,14 +9,29 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
 	width: 1140px;
 	margin: 0 auto;
 }
+
+.divaider{
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
+}
+
 @import "header";
 @import "title";
 @import "button";
 @import "sidepanel";
 @import "menu";
+@import "about";
+@import "resume";
+@import "skills";
+@import "portfolio";
+@import "price";
+@import "contacts";
